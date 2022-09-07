@@ -80,7 +80,7 @@ header {
 /*------------------------------------------ 2 INICIO FONDO  */
 .fondo-corp {
   background-image: url(/Coworking-SC-main/img/123456.png);
-  height: 350px;
+  height: 550px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -111,7 +111,7 @@ header {
 }
 
 .descrip-img {
-  width: 40%;
+  width: 50%;
   display: flex;
   
 }
@@ -125,14 +125,14 @@ header {
 
 .descrip-img img {
   /* border: 1px solid black; */
-  max-width: 60%;
+  max-width: 50%;
   object-fit: cover;
 }
 .descrip-texto h2 {
   padding-bottom: 0.3rem;
 }
 .descrip-texto p {
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
 .boton-inscribete{
@@ -173,40 +173,43 @@ font-size: 2rem;
 
 .raya{
   /* background-color: #16ce21; */
-  color: #16ce21;
+  color: #00369c;
   border-top: 5px solid;
   width: 100%;
   margin: 0 auto;
-  flex: 0 0 66.66667%;
-  max-width: 66.66667%;
+  /* flex: 0 0 66.66667%;
+  max-width: 66.66667%; */
   margin-top: 5rem;
 }
 
-
 .raya-dos{
   /* background-color: #16ce21; */
-  color: #16ce21;
+  color: #00369c;
   border-top: 5px solid;
   width: 100%;
   margin: 0 auto;
-  flex: 0 0 66.66667%;
-  max-width: 66.66667%;
+  /* flex: 0 0 66.66667%;
+  max-width: 66.66667%; */
   margin-top: 5rem;
 }
 
 /*------------------------------------------ 4 INICIO VIRTUDES  */
 .virtudes-cowok {
-  padding: 10rem 2rem 10rem 2rem;
+  padding: 5rem 2rem 5rem 2rem;
 }
 
 .virtudes-titulo {
   text-align: center;
-  padding-bottom: 5rem;
+  padding-bottom: 6rem;
 }
 
 .virtudes-iconos {
   display: flex;
   justify-content: space-between;
+}
+
+.virtudes-iconos h4{
+  margin-bottom: 3rem;
 }
 .virtud-agil {
   width: 20%;
@@ -253,26 +256,45 @@ font-size: 2rem;
   width: 40%;
   /* border: 1px solid black; */
 }
-.app-titulo {
+.app-titulo h1 {
   width: 100%;
-  height: 40%;
+  /* height: 50%; */
   /* border: 1px solid black; */
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: 700;
+  margin-bottom: 3rem;
 }
-.app-android-apple {
+
+.app-descrip h3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: large;
+}
+
+.app-android-apple{
   width: 100%;
-  height: 60%;
+  /* height: 60%; */
   display: flex;
   /* border: 1px solid black; */
-  justify-content: space-around;
   align-items: center;
+  margin-top: 4rem;
 }
+
+.app-android-apple img{
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+
 .galeria-foto {
   display: flex;
   justify-content: center;
 }
+
 .galeria-foto img {
   max-width: 80%;
 }
