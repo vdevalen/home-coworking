@@ -177,8 +177,6 @@ font-size: 2rem;
   border-top: 5px solid;
   width: 100%;
   margin: 0 auto;
-  /* flex: 0 0 66.66667%;
-  max-width: 66.66667%; */
   margin-top: 5rem;
 }
 
@@ -188,8 +186,6 @@ font-size: 2rem;
   border-top: 5px solid;
   width: 100%;
   margin: 0 auto;
-  /* flex: 0 0 66.66667%;
-  max-width: 66.66667%; */
   margin-top: 5rem;
 }
 
@@ -320,15 +316,22 @@ footer {
   justify-content: flex-start;
 }
 .redes-soc {
-  width: 50%;
-  /* border: 1px solid black; */
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  width: 20%;
+  display: flex;
+}
+
+.redes-soc h1{
+  color: white;
+} 
+
+.redes-soc p{
+  color: white;
+  font-size: 1.7rem;
+  margin-left: 2rem;
 }
 .contacto {
-  width: 50%;
+  width: 40%;
   /* border: 1px solid black; */
 }
 .logo-footer img {
@@ -349,14 +352,23 @@ footer {
 }
 .contacto p {
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   margin-left: 2rem;
+  display: flex;
+}
+
+.raya-derechos{
+  color: white;
+  width: 100%;
+  margin: 0 auto;
+
 }
 .derechos {
   height: 3rem;
 }
+
 .derechos p {
-  text-align: left;
+  text-align: center;
   color: aliceblue;
   font-size: 1.2rem;
   padding-top: 2rem;
@@ -365,11 +377,24 @@ footer {
   /* border: 1px solid black; */
   display: flex;
   align-items: center;
-}
-/* .medio img{
-  width: 30%;
-} */
 
+}
+
+.medio img{
+  width: 2rem;
+}
+
+/* .email-logo-1{
+  padding: 10px;
+}
+
+.tel-logo-1{
+  padding: 3rem;
+}
+
+.location-logo-1{
+  padding: 3rem;
+} */
 /*------------------------------------------ FIN FOOTER*/
 
 /*------------------------------------------ FIN FOOTER*/
