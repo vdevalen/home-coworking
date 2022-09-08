@@ -1,4 +1,5 @@
 # home-coworking
+Parte por Jorge: 
 Home del coworking hecho con html, css y js. Parte principal del formulario 
 (Este proyecto estara en constantes cambios esteticos y funcionales)
 
